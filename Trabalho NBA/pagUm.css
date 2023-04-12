@@ -4,6 +4,16 @@ body{
     padding-bottom: 0%;
     font-family: "ROBOTO";
 }
+.Imagem{
+    margin-bottom: -4px;
+}
+#quadrado{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    
+}
 header{
     background-color: rgb(8, 199, 247);
     padding-top: 20px;
