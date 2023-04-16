@@ -2,7 +2,7 @@ body{
     background-color: aqua;
     margin: 0%;
     padding-bottom: 0%;
-    font-family: "ROBOTO";
+    font-family: Arial;
 }
 .Imagem{
     margin-bottom: -4px;
@@ -12,7 +12,7 @@ body{
     height: 200px;
     position: absolute;
     top: 20%;
-    
+    right: 25%;
 }
 header{
     background-color: rgb(8, 199, 247);
@@ -23,6 +23,7 @@ header li{
     display: inline;
     margin-left: 17%;
     list-style-type: none;
+    
 }
 header a{
     color:black;
