@@ -1,5 +1,4 @@
 body{
-    background-color: aqua;
     margin: 0%;
     padding-bottom: 0%;
     font-family: Arial;
@@ -7,23 +6,22 @@ body{
 .Imagem{
     margin-bottom: -4px;
 }
-#quadrado{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 20%;
-    right: 25%;
+img{
+    width: calc(100vw - 17px);
 }
 header{
-    background-color: rgb(8, 199, 247);
+    background-color: rgb(40, 120, 185);
     padding-top: 20px;
     padding-bottom: 15px;
 }
-header li{
+header ul{
+    display: inline-block;
+    width: 90%;
+}
+header ul li{
     display: inline;
     margin-left: 17%;
     list-style-type: none;
-    
 }
 header a{
     color:black;
@@ -46,7 +44,7 @@ footer p{
 }
 footer ul{
     margin: 0 auto;
-    width: 40%;
+    width: 35%;
 }
 footer li{
     display: inline;

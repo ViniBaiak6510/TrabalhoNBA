@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Pagina de Cadastro</title>
+</head>
+<body>
+   
+    <div class="Cadastro">
+        <h1>Cadastrar</h1>
+        <form id="Formulario">
+            <fieldset>
+                <legend>País</legend>
+                <select>
+                    <option>Brasil</option>
+                    <option>Estados Unidos</option>
+                    <option>Alemanha</option>
+                </select>
+            </fieldset>
+            <br><br>
+            
+            <input type="text" name="nome" class="NomeSob" required placeholder="Nome">
+            <input type="text" name="nome" class="NomeSob" required placeholder="Sobrenome"><br><br>
+            <input type="email" id="email" class="input-padrao" required placeholder="Endereço de Email"><br><br>   
+            <input type="password" id="senha" class="input-padrao" required placeholder="Senha"><br><br>
+             
+            <fieldset>
+                <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades<br> por e-
+                mail?</label><br><br>
+                <label><input type="checkbox" class="checkboc">Li e concordo com os <a href="">termos de serviço</a></label><br><br>
+                
+                <button type="submit" value="Cadastrar" class="Cadastro">Cadastrar</button>
+            </fieldset>
+            </form>
+    </div>   
+</body>
+</html>
