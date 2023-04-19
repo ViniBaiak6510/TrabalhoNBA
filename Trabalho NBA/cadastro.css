@@ -22,6 +22,19 @@ input{
     padding: 4%;
     font-size: 15px;
 }
+#seletor{
+    width: 89%;
+    padding: 4%;
+}
 .NomeSob{
     width: 35%;
+}
+.emailsenha{
+    width: 80%;
+}
+#botao{
+    padding: 4%;
+    width: 89%;
+    background-color: rgb(74, 166, 252);
+    margin-bottom: 20px;
 }
