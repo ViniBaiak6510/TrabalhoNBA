@@ -68,27 +68,25 @@ main{
     }
    
     abbr{ 
-
         text-decoration: solid;
-        /* border-color: black;
-        border-bottom: 2px solid; */
-
+        border-color: black;
+        border-bottom: 2px solid; 
     }
 
+    #RedesSoci{
+        margin-top: 2%;
+    }
     #Twitter{
         display: inline-block;
         filter: invert(100%);
         width: 30px;
         height: 30px;
-        border-right: 1px solid #030303;
-        margin-left: 100px;
+        margin-left: 48%;
     }
-
     #Instagram{
         display: inline-block;
         filter: invert(100%);
         width: 30px;
         height: 30px;
-        border-right: 1px solid #0a0a0a;
-        margin-left: 100px;
+        margin-left: 10px;
     }

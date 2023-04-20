@@ -56,3 +56,20 @@ footer a{
     color: white;
     text-decoration: none;
 }
+#RedesSoci{
+    margin-top: 2%;
+}
+#Twitter{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 48%;
+}
+#Instagram{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
