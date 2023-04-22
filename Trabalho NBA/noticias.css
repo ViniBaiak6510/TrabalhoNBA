@@ -1,0 +1,165 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    background-color: rgb(40, 120, 185);
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+header ul{
+    display: inline-block;
+    width: 90%;
+}
+header ul li{
+    display: inline;
+    margin-left: 17%;
+    list-style-type: none;
+}
+header a{
+    color:black;
+    text-decoration: none;
+}
+main{
+    margin-bottom: 0%;
+} 
+main h1{
+    text-align: center;
+}
+
+.ImagensNoticias{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#JamesHardem{
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    border-radius: 6px;
+    border: 1px solid rgb(44, 44, 44);
+    display: inline-block;
+}
+#Um{
+    width: 49.5%;
+    height: 600px;
+    margin: 0%
+}
+#DurantxRussel{
+    /*width: 660px;*/
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    right: 0%;
+    border-radius: 6px;
+    border: 1px solid rgb(51, 50, 50);
+}
+#Dois{
+    width: 49.5%;
+    margin: 0%;
+    height: 290px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+#LebronxBrookes{
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    border-radius: 6px;
+    border: 1px solid rgb(31, 31, 31);
+}
+#Tres{
+    width: 49.5%;
+    margin: 0%;
+    height: 290px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+#NoticiaJamesH{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 1%;
+    left: 0%;
+    text-align: start;
+    text-shadow: 2px 4px 5px #000000;
+}
+
+#NoticiaJamesH h2{
+    font-size: 40px;
+    margin: 0%;
+}
+#NoticiaKevin{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 68%;
+    text-shadow: 2px 4px 5px #000000;
+}
+#NoticiaKevin h2{
+    font-size: 40px;
+    margin: 0%;
+}
+#NoticiaLB{
+    position: absolute;
+    color: aliceblue;
+    bottom: 0%;
+    text-shadow: 2px 4px 5px #000000;
+}
+#NoticiaLB h2{
+    font-size: 40px;
+    margin: 0%;
+}
+#NoticSec{
+   
+}
+
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.linhaFooter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 1px rgba(255, 255, 255,.1);
+    border-bottom: solid 1px rgba(255, 255, 255,.1);
+}
+footer ul{
+    margin: 0 auto;
+    width: 35%;
+}
+footer li{
+    display: inline;
+    margin-left: 4%;
+    list-style-type: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#RedesSoci{
+    margin-top: 2%;
+}
+#Twitter{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 48%;
+}
+#Instagram{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
