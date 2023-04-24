@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    padding-bottom: 0%;
     font-family: Arial;
 }
 
@@ -26,6 +27,64 @@ header ul li{
 header a{
     color:black;
     text-decoration: none;
+}
+main{
+    margin-bottom: 60px ;
+}
+#Jogadores{
+    width: 60%;
+    height: 80px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 30px;
+}
+#Jogadores h3{
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+    padding-left: 1%;
+    width: 0px;
+    margin-bottom: 5px;
+}
+#Jogadores img{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1px solid gray;
+    margin-left: 6px;
+}
+.Lider{
+    border-right: 1px solid black;   
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px 6px 2px 6px;
+}
+table{
+    width: 60%;
+    margin: 0 auto;
+}
+th,td{
+    text-align: left;
+    background-color:rgb(255, 255, 255) ;
+    height: 40px;
+}
+td{
+    background-color:#fffcfc;
+}
+tr:nth-child(odd) td{
+    background-color: rgb(241, 241, 245);
+    
+}
+
+
+h1,h2,h3{
+    text-align: center;
+    font-size: 23px;
 }
 footer{
     background-color: black;

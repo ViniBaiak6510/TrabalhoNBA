@@ -22,7 +22,7 @@ header a{
     text-decoration: none;
 }
 main{
-    margin-bottom: 0%;
+    margin-bottom: 5%;
 } 
 main h1{
     text-align: center;
@@ -32,6 +32,7 @@ main h1{
     position: relative;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 #JamesHardem{
@@ -39,10 +40,9 @@ main h1{
     height: 600px;
     left: 0px;
     border-radius: 6px;
-    border: 1px solid rgb(44, 44, 44);
     display: inline-block;
 }
-#Um{
+#PositionJH{
     width: 49.5%;
     height: 600px;
     margin: 0%
@@ -54,9 +54,8 @@ main h1{
     position: absolute;
     right: 0%;
     border-radius: 6px;
-    border: 1px solid rgb(51, 50, 50);
 }
-#Dois{
+#PositionKD{
     width: 49.5%;
     margin: 0%;
     height: 290px;
@@ -71,9 +70,8 @@ main h1{
     right: 0%;
     top: 0%;
     border-radius: 6px;
-    border: 1px solid rgb(31, 31, 31);
 }
-#Tres{
+#PositionLB{
     width: 49.5%;
     margin: 0%;
     height: 290px;
@@ -115,7 +113,62 @@ main h1{
     margin: 0%;
 }
 #NoticSec{
-   
+    width: 55%;
+    margin: 0 auto;
+}
+#NoticiaUm{
+    width: 100%;
+    height: 230px;
+    font-size: 16px;
+    display: flex;
+}
+
+.conteudoSec h2{
+    color: #574fc7;
+    padding-left: 5%;
+    height: 50px;
+}
+.conteudoSec p{
+    padding-left: 5%;
+}
+#NoticiaUm a{
+    text-decoration: none;
+}
+#NoticiaUm img{
+    height: 90%;
+    border-radius: 6px;
+    padding-left: 0%;
+}
+#NoticiaUm p{
+    color: gray;
+    right: 5%;
+    top: 50%;
+}
+#NoticiaDois{
+    width: 100%;
+    height: 230px;
+    font-size: 16px;
+    display: flex;
+    border-top: 1px solid rgb(128, 128, 128);
+}
+#NoticiaDois a{
+    text-decoration: none;
+}
+#NoticiaDois img{
+    margin-top: 8%;
+    border-radius: 6px;
+    width: 310px;
+    height: 90%;
+    border-radius: 6px;
+    padding-left: 0%;
+}
+#NoticiaDois h2{
+    height: 70px;
+}
+#NoticiaDois p{
+    color: gray;
+    right: 5%;
+    top: 50%;
 }
 
 footer{
