@@ -5,7 +5,7 @@ body{
 header{
     background-color: rgb(40, 120, 185);
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 
 }
 header ul{
@@ -40,7 +40,6 @@ main h1{
     height: 600px;
     left: 0px;
     border-radius: 6px;
-    display: inline-block;
 }
 #PositionJH{
     width: 49.5%;
