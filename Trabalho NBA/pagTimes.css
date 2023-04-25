@@ -1,14 +1,22 @@
 body{
-    background-color: rgb(172, 40, 40);
-    color:  rgb(10, 10, 10);
+    margin: center ;
+    background-color: #00a2ff;
+    color:  rgb(255, 255, 255);
     font-family: Arial;
     margin: 0%;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
 }
 
 .ImagensTimes{
     margin: 0 auto;
-    width: 1%;
-    background-color: aqua;
+    width: 85%;
+  
 }
 .times{
     margin-bottom: 1%;
@@ -70,3 +78,31 @@ abbr{
     height: 30px;
     margin-left: 10px;
 }
+.Pontos{
+    margin-bottom: 1%;
+    margin-left: 10%;
+    border-radius: 500px;
+    width: 120px;
+    height: 120px;
+    
+}
+header{
+    background-color: rgb(42, 91, 170);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+header ul{
+    display: inline-block;
+    width: 90%;
+}
+header ul li{
+    display: inline;
+    margin-left: 17%;
+    list-style-type: none;
+}
+header a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+  

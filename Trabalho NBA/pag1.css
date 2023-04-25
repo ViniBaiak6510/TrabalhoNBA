@@ -10,7 +10,7 @@ img{
     width: calc(100vw - 17px);
 }
 header{
-    background-color: rgb(40, 120, 185);
+    background-color: rgb(42, 91, 170);
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -24,7 +24,7 @@ header ul li{
     list-style-type: none;
 }
 header a{
-    color:black;
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 footer{

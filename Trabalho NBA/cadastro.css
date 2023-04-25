@@ -27,7 +27,7 @@ img{
     display: block;
     width: 100px;
     height: 100px;
-    margin: auto;
+    margin: 0 auto;
 }
 input{
     padding: 4%;
